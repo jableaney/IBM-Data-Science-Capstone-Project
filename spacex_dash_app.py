@@ -46,6 +46,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                                 marks={0: '0 kg',
                                                     2500: '2500',
                                                     5000: '5000',
+                                                    7000: '7500',
                                                     10000: '10000'}),
 
                                 # TASK 4: Add a scatter chart to show the correlation between payload and launch success
